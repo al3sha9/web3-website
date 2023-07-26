@@ -1,0 +1,80 @@
+.bg-alpha{
+    /* background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% ); */
+    height: 100vh;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    width: 100vw;
+}
+
+.navbar{
+    background: transparent !important;
+}
+
+.navbar-nav{
+    background: rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+    border-radius: 32px;
+}
+.nav-item{
+    padding: 0 20px;
+    font-weight: lighter;
+    border-bottom: 1px solid transparent;
+    font-size: 20px;
+    
+}
+.nav-item a{
+    color: #fff !important;
+    font-weight: bold;
+}
+.nav-item a:hover{
+    border-bottom: 1px solid #fff;
+    transition: all 0.4s ease-in-out;
+}
+.nav-item a:hover .active{
+    border-bottom-color: transparent !important;
+}
+.navbar-brand{
+    padding: 5px 10px;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.active{
+    border-bottom: 1px solid #fff;
+}
+.barbar a{
+    font-size: 25px;
+    border: 1px solid #fff;
+    color: #fff !important;
+    padding: 10px 11px;
+    border-radius: 25px;
+}
+
+
+.curv1{
+    margin-top: 120px !important;
+}
+.curv1, .curv3{
+    font-family: 'Lumanosimo', cursive;
+}
+.curv2{
+    font-weight: bold;
+}
+.curv1 , .curv2 , .curv3{
+    font-size: 80px;
+    color: #fff;
+    letter-spacing: 8.1px;
+}
+.hand{
+    position: absolute;
+    top: 1;
+    top: 106px;
+    right: 50px;
+}
+.bg-pat{
+    background-image: url(../images/pat.png);
+    background-size: cover;
+    height: 250px;
+    background-repeat: no-repeat;
+}
