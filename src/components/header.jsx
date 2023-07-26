@@ -25,7 +25,7 @@ export default function Hero() {
                             <button className="button-cus">Get <br />Started</button>
                         </div>
                         <div className="col-md-4">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error accusamus voluptatem commodi sequi corrupti odio.</p>
+                            <p>Lorem ipsum dolor sit consectetur adipisicing elit. Error accusamus voluptatem commodi sequi corrupti odio.</p>
                         </div>
                     </div>
                 </div>
