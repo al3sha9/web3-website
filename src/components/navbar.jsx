@@ -13,9 +13,9 @@ export default function NavbarTop() {
       const navbar = document.getElementById('navbar');
 
       if (window.scrollY > 0) {
-        navbar.classNameList.add('scrolled');
+        navbar.classList.add('scrolled');
       } else {
-        navbar.classNameList.remove('scrolled');
+        navbar.classList.remove('scrolled');
       }
     };
 
@@ -58,11 +58,15 @@ export default function NavbarTop() {
             </form>
             <Offcanvas show={show} onHide={handleClose}>
               <Offcanvas.Header closeButton>
-                <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                <Offcanvas.Title>
+                  <div className="container">OUR WEB 3 FUNCTIONALITIES</div>
+                </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
+                <div className="container">
                 Some text as placeholder. In real life you can have the elements you
                 have chosen. Like, text, images, lists, etc.
+                </div>
               </Offcanvas.Body>
             </Offcanvas>
           </div>

@@ -51,6 +51,7 @@
     color: #fff !important;
     padding: 10px 11px;
     border-radius: 25px;
+    cursor: pointer;
 }
 
 
@@ -127,6 +128,12 @@
   }
   
   #navbar.scrolled {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.5) !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     /* Styles when scrolled */
+  }
+  .offcanvas{
+    width: 100vw !important;
+    background: transparent;
+    color: #fff;
   }
