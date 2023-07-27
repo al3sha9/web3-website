@@ -9,7 +9,7 @@ export default function Hero() {
                 <div className="container">
 
                     <div className="row">
-                        <div className="col-md-12 mt-5 pt-5">
+                        <div className="col-md-12 ">
                             <h2 className="curv1 mt-5 p5-5">ONBOARDING</h2>
                             <h2 className="curv2 text-center">ENTERPRISES</h2>
                             <h2 className="curv3 text-end">TO WEB3</h2>

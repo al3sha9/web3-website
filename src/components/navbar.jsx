@@ -30,12 +30,12 @@ export default function NavbarTop() {
 
   return (
     <>
-      <nav className="navbar fixed-top navbar-expand-lg text-dark py-4 border-b bg-body-tertiary">
+      <nav id='navbar' className="navbar sticky-top navbar-expand-lg text-dark py-4 border-b bg-body-tertiary">
         <div className="container">
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-            <a className="navbar-brand" href="#">Alpha</a>
+          <a className="navbar-brand" href="#">Alpha</a>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul className="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
               <li className="nav-item">
@@ -54,17 +54,17 @@ export default function NavbarTop() {
             <form className="d-flex barbar" role="search">
               <a className="fa-solid fa-bars" onClick={handleShow}></a>
 
-              
+
             </form>
             <Offcanvas show={show} onHide={handleClose}>
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
-        </Offcanvas.Body>
-      </Offcanvas>
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body>
+                Some text as placeholder. In real life you can have the elements you
+                have chosen. Like, text, images, lists, etc.
+              </Offcanvas.Body>
+            </Offcanvas>
           </div>
         </div>
       </nav>

@@ -119,3 +119,14 @@
     color: #fff;
     font-size: 35px;
 }
+
+
+#navbar {
+    transition: background-color 0.3s;
+    /* Default styles */
+  }
+  
+  #navbar.scrolled {
+    background-color: rgba(0,0,0,0.5);
+    /* Styles when scrolled */
+  }
