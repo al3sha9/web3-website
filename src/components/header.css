@@ -2,8 +2,10 @@
     /* background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% ); */
     height: 100vh;
     background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-    width: 100vw;
+    /* width: 100%; */
+    /* animation: changeGradient 5s ease-in-out infinite alternate; */
 }
+
 
 .navbar{
     background: transparent !important;
@@ -71,10 +73,49 @@
     top: 1;
     top: 106px;
     right: 50px;
+    animation: moveUpDown 1s infinite alternate ease-in-out;
 }
+@keyframes moveUpDown {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-20px); /* Adjust this value to control the movement distance */
+    }
+  }
 .bg-pat{
     background-image: url(../images/pat.png);
     background-size: cover;
     height: 250px;
     background-repeat: no-repeat;
+}
+
+.pski p{
+    color: #fff;
+}
+.btn-cus{
+    width: 150px;
+    height: 150px;
+    border-radius: 96px;
+    background-color: orangered;
+    font-family: 'Lumanosimo', cursive;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.p-1{
+    font-family: 'Lumanosimo', cursive;
+    font-size: 19px;
+}
+.p-2{
+    font-weight: bold;
+    font-size: 27px;
+    letter-spacing: 1px;
+}
+.top-soc a{
+    margin: 10px;
+    color: #fff;
+    font-size: 35px;
 }

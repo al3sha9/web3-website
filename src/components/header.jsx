@@ -17,15 +17,22 @@ export default function Hero() {
                         </div>
                     </div>
 
-                    <div className="row">
+                    <div className="row pski">
                         <div className="col-md-4">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error accusamus voluptatem commodi sequi corrupti odio.</p>
+                            <p className="p-1 mt-4">Aventus Onboards Enterprises To Web3. We Scope Out Potential Use Cases And Customize Managed.</p>
+                            <div className="row">
+                                <div className="col-md-12 text-start top-soc">
+                                    <a href="#"><i className="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i className="fa-brands fa-telegram"></i></a>
+                                    <a href="#"><i className="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
                         </div>
                         <div className="col-md-4 bg-pat text-center" >
-                            <button className="button-cus">Get <br />Started</button>
+                            <button className="btn-cus mt-3">Get <br />Started</button>
                         </div>
-                        <div className="col-md-4">
-                            <p>Lorem ipsum dolor sit consectetur adipisicing elit. Error accusamus voluptatem commodi sequi corrupti odio.</p>
+                        <div className="col-md-4 text-end">
+                            <p className="p-2 mt-5">Discover all That Web3 can offer to your Buisness Today!</p>
                         </div>
                     </div>
                 </div>
