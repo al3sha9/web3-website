@@ -130,7 +130,7 @@
   #navbar.scrolled {
     background-color: rgba(0,0,0,0.5) !important;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    /* Styles when scrolled */
+    /* Styles when scrolled  away*/
   }
   .offcanvas{
     width: 100vw !important;
