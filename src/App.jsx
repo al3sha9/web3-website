@@ -4,6 +4,7 @@ import Hero from "./components/header"
 import './App.css'
 import { useEffect } from 'react';
 import Imagine from './components/imagine';
+import Solution from './components/solution';
 
 function App() {
   useEffect(()=>{
@@ -13,6 +14,7 @@ function App() {
     <>
      <Hero />
      <Imagine />
+     <Solution />
     </>
   )
 }
