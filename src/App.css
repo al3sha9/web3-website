@@ -22,6 +22,7 @@ border-radius: 35px;
 }
 hr{
     color: #fff;
+    border-top: 1px dashed #bcbcbc;
 }
 .mob p{
     font-family: 'Lumanosimo', cursive;
@@ -31,9 +32,6 @@ hr{
     font-size: 29px;
     font-weight: bolder;
     font-family: sans-serif;
-}
-.imagine{
-    /* position: relative; */
 }
 
 ::-webkit-scrollbar {
@@ -55,4 +53,18 @@ hr{
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #6a11cb;
+  }
+
+  .imagine-h2{
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .imagine-para h3{
+    color: blue;
+    font-size: 55px;
+    font-weight: bold;
+  }
+  .imagine-para p{
+    font-family: sans-serif;
+    letter-spacing: 1px;
   }
