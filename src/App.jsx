@@ -5,6 +5,7 @@ import './App.css'
 import { useEffect } from 'react';
 import Imagine from './components/imagine';
 import Solution from './components/solution';
+import UseCase from './components/use';
 
 function App() {
   useEffect(()=>{
@@ -15,6 +16,7 @@ function App() {
      <Hero />
      <Imagine />
      <Solution />
+     <UseCase />
     </>
   )
 }

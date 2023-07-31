@@ -86,7 +86,7 @@ hr {
   background: rgb(67, 53, 128);
   background: linear-gradient(158deg, rgba(67, 53, 128, 1) 0%, rgba(0, 0, 0, 1) 54%, rgba(67, 53, 128, 1) 98%);
   color: #fff;
-  border-bottom: 1px dashed #bcbcbc;
+  border-bottom: .1px dashed #bcbcbc;
 }
 
 .solution p {
@@ -110,6 +110,9 @@ hr {
   background: rgb(40, 52, 137);
   background: linear-gradient(180deg, rgba(40, 52, 137, 1) 0%, rgba(94, 67, 183, 1) 100%);
   transition: all 0.4s ease-in-out;
+  color: #ffffff99 !important;
+  
+
 }
 .swiper-slide h3{
   font-weight: bold;
@@ -151,4 +154,10 @@ background: linear-gradient(141deg, rgb(74, 94, 239) 32%, rgba(255,255,255,1) 10
 }
 .swiper-slide:hover  a{
   color: #fff !important;
+  
+}
+.use{
+  padding-top: 50px;
+  background: rgb(71,34,123);
+  background: linear-gradient(40deg, rgba(71,34,123,1) 0%, rgba(0,0,0,1) 35%);
 }
