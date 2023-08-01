@@ -3,28 +3,34 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
+// import { EffectFade } from 'swiper/modules';
+
 import 'swiper/css';
 // import 'swiper/css/pagination';
 
 // import './App.css'
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+// import { Pagination } from 'swiper/modules';
 export default function Solution() {
     return (
         <section className="solution pt-4">
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-12">
                         <h2 className='text-center py-5'>OUR SOLUTION</h2>
                         <Swiper
+                            // effect="fade"
+                            
                             slidesPerView={3}
                             spaceBetween={10}
                             centeredSlides={true}
                             pagination={{
                                 clickable: false,
                             }}
-                            modules={[Pagination]}
+                            
+                            
+                            // modules={[EffectFade]}
                             className="mySwiper"
                         >
                             <SwiperSlide>

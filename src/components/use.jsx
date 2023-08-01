@@ -3,45 +3,57 @@ export default function UseCase() {
         <div className="use py-5">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-md-5 py-5">
                         <h2>Use Cases</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus cum tempore laborum nesciunt obcaecati esse!</p>
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-7 py-5">
                         <div className="accordion" id="accordionExample">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingOne">
                                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Accordion Item #1
+                                        Video Games Play To Earn
                                     </button>
                                 </h2>
                                 <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                        <strong>This is the first items accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. Its also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci omnis quidem minima repudiandae? Consequuntur saepe, tempore alias voluptates neque quos totam quam beatae eum vel eaque, quae atque! Impedit, eveniet.</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingTwo">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Accordion Item #2
+                                        Non-Fungible Tokens NFTs
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                        <strong>This is the second items accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. Its also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci omnis quidem minima repudiandae? Consequuntur saepe, tempore alias voluptates neque quos totam quam beatae eum vel eaque, quae atque! Impedit, eveniet.</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingThree">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Accordion Item #3
+                                        Loyalty Cashback
                                     </button>
                                 </h2>
                                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                        <strong>This is the third items accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. Its also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci omnis quidem minima repudiandae? Consequuntur saepe, tempore alias voluptates neque quos totam quam beatae eum vel eaque, quae atque! Impedit, eveniet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingFour">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Event Ticketing Scalping Managment
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div className="accordion-body">
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci omnis quidem minima repudiandae? Consequuntur saepe, tempore alias voluptates neque quos totam quam beatae eum vel eaque, quae atque! Impedit, eveniet.</p>
                                     </div>
                                 </div>
                             </div>

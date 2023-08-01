@@ -59,7 +59,7 @@
     margin-top: 120px !important;
 }
 .curv1, .curv3{
-    font-family: 'Lumanosimo', cursive;
+    font-family: 'Ysabeau Office', sans-serif;
 }
 .curv2{
     font-weight: bold;
@@ -99,7 +99,7 @@
     height: 150px;
     border-radius: 96px;
     background-color: orangered;
-    font-family: 'Lumanosimo', cursive;
+    font-family: 'Ysabeau Office', sans-serif;
     font-size: 20px;
     outline: none;
     border: none;
@@ -107,7 +107,7 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .p-1{
-    font-family: 'Lumanosimo', cursive;
+    font-family: 'Ysabeau Office', sans-serif;
     font-size: 19px;
 }
 .p-2{
