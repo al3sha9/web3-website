@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Mars";   /*Can be any text*/
+  src: local("Mars"),
+    url("../src/assets/Mars/Mars.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Proxon";   /*Can be any text*/
+  src: local("PROXON"),
+    url("../src/assets/PROXON.ttf") format("truetype");
+}
+
 .imagine {
   background-color: #000;
 }
@@ -141,7 +152,8 @@ hr {
 }
 
 .solution h2 {
-  font-family: 'Ysabeau Office', sans-serif;
+  font-family: Mars;
+
   color: #fff;
   font-weight: bold;
   font-size: 40px;
@@ -217,6 +229,9 @@ background: linear-gradient(141deg, rgb(255, 255, 255) 32%, rgba(255,255,255,1) 
 .use h2{
   color: #fff;
   font-weight: 700;
+  font-family: Proxon;
+  letter-spacing: 3px;
+
   font-size: 44px;
 }
 .use p{

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Mars";   /*Can be any text*/
+    src: local("Mars"),
+      url("../src/assets/Mars/Mars.ttf") format("truetype");
+  }
 .bg-alpha{
     /* background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% ); */
     height: 100vh;
@@ -59,9 +64,13 @@
     margin-top: 120px !important;
 }
 .curv1, .curv3{
-    font-family: 'Ysabeau Office', sans-serif;
+    font-family: Proxon;
 }
+
 .curv2{
+    font-family: Mars;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-weight: bold;
 }
 .curv1 , .curv2 , .curv3{
