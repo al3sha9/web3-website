@@ -9,10 +9,10 @@ export default function Hero() {
                 <div className="container">
 
                     <div className="row">
-                        <div className="col-md-12 ">
-                            <h2 className="curv1 mt-5 p5-5">ONBOARDING</h2>
-                            <h2 className="curv2 text-center">ENTERPRISES</h2>
-                            <h2 className="curv3 text-end">TO WEB3</h2>
+                        <div className="col-md-12 mb-4">
+                            <h2 className="curv1 displa-1 mt-5 p5-5">ONBOARDING</h2>
+                            <h2 className="curv2 disply-1 ">ENTERPRISES</h2>
+                            <h2 className="curv3 dispay-1">TO WEB3</h2>
                                 <img src={Hand} className="hand"  alt="" />
                         </div>
                     </div>

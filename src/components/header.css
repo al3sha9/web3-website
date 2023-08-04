@@ -67,16 +67,18 @@
     font-family: Proxon;
 }
 
-.curv2{
-    font-family: Mars;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
+
 .curv1 , .curv2 , .curv3{
     font-size: 80px;
     color: #fff;
     letter-spacing: 8.1px;
+}
+.curv2{
+    font-family: Mars;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 65px;
 }
 .hand{
     position: absolute;
