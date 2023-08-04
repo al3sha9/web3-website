@@ -18,7 +18,7 @@ export default function Solution() {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-12">
-                        <h2 className='text-center py-5'>OUR SOLUTION</h2>
+                        <h2 className='text-center py-5'>OUR SOLUTION.</h2>
                         <Swiper
                             // effect="fade"
                             
